@@ -42,6 +42,15 @@ $ bundle exec rails new .
 $ bundle exec rails s 
 ```
 
+Herokuはsqlite3対応してないんで，postgresqlにしなさいとのこと．
+```
+production:
+  <<: *default
+  adapter: postgresql
+  database: db/production.postgresql
+  # database: db/production.sqlite3
+```
+
 
 #### 参考
 - https://qiita.com/narikei/items/cd029911597cdc71c516
