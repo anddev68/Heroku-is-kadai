@@ -1,5 +1,11 @@
 # README
 
+## ゲームの勝敗記録ツール
+ゲームの勝敗を記録するツールです．
+
+
+
+
 ## デフォルトのメモ
 
 This README would normally document whatever steps are necessary to get the
@@ -15,6 +21,11 @@ Things you may want to cover:
 
 * Database creation
 
+User
+  - name
+  - win
+  - lose
+
 * Database initialization
 
 * How to run the test suite
@@ -24,6 +35,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
 
 
 ## セットアップメモ
