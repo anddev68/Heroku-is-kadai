@@ -1,0 +1,12 @@
+.game-table td{
+    width: 100px;
+    height: 100px;
+}
+
+.game-table .odd{  /* kisuu */
+    background: #64B5F6;
+}
+
+.game-table .even{ /* guusuu */
+    background: #E0E0E0;
+}
