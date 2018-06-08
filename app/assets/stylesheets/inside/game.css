@@ -1,0 +1,87 @@
+
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+}
+
+
+
+.flex-box{
+    display: inline-flex;
+}
+
+
+.game-table{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.game-table td{
+    width: 33%;
+    height: 33%;
+    font-size: 52px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.game-table .odd{  /* kisuu */
+    background: #64B5F6;
+}
+
+.game-table .even{ /* guusuu */
+    background: #E0E0E0;
+}
+
+.p-img-left{
+    width: 8%;
+    height: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.p-img-right{
+    width: 8%;
+    height: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.game-footer{
+    width: 100%;
+    margin-top: 12px;
+    clear: both;
+}
+
+.game-footer .icon{
+    width: 54px;
+    height: 54px;
+    vertical-align: middle;
+}
+
+.game-footer .user-name{
+    font-size: 2.5rem;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.game-footer .match{
+    font-size: 1.2rem;
+    margin-left: 8px;
+    vertical-align: bottom;
+}

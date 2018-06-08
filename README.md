@@ -1,7 +1,5 @@
-# README
-
-## ゲームの勝敗記録ツール
-ゲームの勝敗を記録するツールです．
+# NARABERO
+いわゆる３目並べゲームです．
 
 ### DBに作ったものたち
 
@@ -10,6 +8,13 @@ User
   - password_digest: string
   - win: integer
   - lose: integer
+
+
+### ナビゲーションルール
+- /game ゲーム画面
+- /login ログイン画面
+- /logout ログアウト画面
+- /register ユーザ登録画面
 
 
 ### フォルダ構成
@@ -21,39 +26,14 @@ User
     - 「ログアウトしました」を表示する
 - game
   - index ゲーム画面(ログインされていなければログイン画面へリダイレクト)
+  - 勝利するとユーザの勝利数+1します(ajaxによる通信)
 - users
   - new ユーザ登録画面
 
 
-
-
-## デフォルトのメモ
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-  
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+### 使用したライブラリ
+- jquery
+- bootstrap
 
 
 
