@@ -9,7 +9,6 @@ User
   - win: integer
   - lose: integer
 
-
 ### ナビゲーションルール
 - /game ゲーム画面
 - /login ログイン画面

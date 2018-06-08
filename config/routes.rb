@@ -26,5 +26,8 @@ Rails.application.routes.draw do
   # register
   get '/register', to: 'users#new'
 
+  # users
+  get '/users', to: 'users#index'
+
 
 end
