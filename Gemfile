@@ -70,6 +70,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # jquery
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'jquery_mobile_rails'
 
 # bootstrap
 gem 'bootstrap', '~> 4.1.1'

@@ -16,3 +16,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 Rails.application.config.assets.precompile += %w( inside/session.css )
 Rails.application.config.assets.precompile += %w( inside/game.css )
+
+
+Rails.application.config.assets.precompile += %w( inside/tinder.css )
+Rails.application.config.assets.precompile += %w( inside/tinder.js )

@@ -29,5 +29,4 @@ Rails.application.routes.draw do
   # users
   get '/users', to: 'users#index'
 
-
 end

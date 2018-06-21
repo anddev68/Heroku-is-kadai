@@ -1,6 +1,16 @@
 class GameController < ApplicationController
 
     def index
+
+        girls = Dir.glob("public/images/girl/*.jpeg")
+        girls.map! {|item| [item, "girl"] }
+        shemales = Dir.glob("public/images/shemale/*.jpeg")
+        shemales.map! {|item| [item, "shemale"]}
+
+        @subjects = []
+        @subjects.concat(girls)
+        @subjects.concat(shemales)
+        @subjects.shuffle!
         
         if session[:login] then
             # login OK

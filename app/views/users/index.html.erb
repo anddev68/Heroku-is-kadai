@@ -2,7 +2,14 @@
 
 <p id="notice"><%= notice %></p>
 
-<h1>Users</h1>
+<h1>登録されているユーザ一覧</h1>
+
+<form class="form-inline">
+  <div class="form-group">
+    <input type="search" name="search" id="searc-basic" value="" placeholder="名前を入力してください" />
+    <input type="submit" value="検索" data-inline="true" data-mini="true" class="btn btn-primary">
+  </div>
+</form>
 
 <table class="table">
   <thead>
