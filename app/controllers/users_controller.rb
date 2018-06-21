@@ -36,15 +36,15 @@ class UsersController < ApplicationController
     @user.win = 0
     @user.lose = 0
     
-    respond_to do |format|
-      if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :created, location: @user }
-      else
+    if @user.save
+      render '_redirect'
+    else
+      respond_to do |format|
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
+
   end
 
   # PATCH/PUT /users/1

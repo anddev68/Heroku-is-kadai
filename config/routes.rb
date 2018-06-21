@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'game/delete'
-  get 'session/new'
-  get 'session/delete'
+  #get 'game/delete'
+  #get 'session/new'
+  #get 'session/delete'
   
   resources :users
   
