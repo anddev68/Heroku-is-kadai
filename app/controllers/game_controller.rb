@@ -18,7 +18,7 @@ class GameController < ApplicationController
             
         else
             # login NG
-            #redirect_to '/login'
+            redirect_to '/login'
         end
 
     end
